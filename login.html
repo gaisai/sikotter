@@ -1,0 +1,34 @@
+<HTML>
+
+
+<head>
+  <meta charset ='UTF-8'>
+</head>
+
+
+<body bgcolor="pink">
+
+
+	<script>
+		function login(){
+			if(document.getElementById("pass").value=="password"){
+				location.href="index.html"+"?="+document.getElementById("name").value;
+				console.log("send\n");
+			}
+		}
+
+
+
+	</script>
+
+	<p>input your username and password</p>
+    <input type="text" name="name" id="name" value='name' style="WIDTH: 300px; HEIGHT: 30px">	<br>
+    <input type="text" name="pass" id="pass" value='pass' style="WIDTH: 300px; HEIGHT: 30px">	<br>
+    
+    <input type="button" value="SENDS" onclick="login()"></br>
+
+
+</body>
+
+
+</HTML> 

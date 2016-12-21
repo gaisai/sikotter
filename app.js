@@ -1,5 +1,5 @@
 var http = require('http');
-var socketio = require('socket.io');
+//var socketio = require('socket.io');
       fs =require('fs');　//ファイルシステムモジュールの読み込み
 var server = http.createServer();
 
